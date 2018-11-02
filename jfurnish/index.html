@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>How to code</title>
+  <link rel="stylesheet" type="text/CSS" href="CSS.css">
+        <style>
+          table{
+            border: 1px solid black;  
+          }
+          div.hi{
+            background-color:black;
+            color:white;
+            padding:30px;
+          }
+          nav.type1nav{
+  background-color:rgb(18,182,85);
+  height:50px;
+            
+          }
+          nav ul li{
+            list-style-type:none;
+            width:200px;
+            float:left;
+            
+          }
+          nav ul li a{
+            text-decoration:none;
+            color:blue;
+            display:block;
+            line-height:50px;
+            text-align:center;
+            
+          }
+          li a:hover{
+            background-color:rgb(182,80,177);
+            color:red;
+            
+          }
+          
+          
+          
+  </style>
+  </head>
+  <body>
+<nav class="type1nav"> 
+  <ul>
+    <li class="linknav1"><a href="page one.html">Page one</a></li>
+    <li class="linknav1"><a href="#">Page two</a></li>
+    <li class="linknav1"><a href="#">Page three</a></li>
+    <li class="linknav1"><a href="#">Page four</a></li>
+  </ul>
+</nav>
+
+  <p>
+   W3schools was used to help create this website. Make sure you use W3schools if you don't understand something on the website. 
+  </p>
+  <h1>
+    h1 
+  </h1>
+  <h2>
+    h2
+  </h2>
+  <h3>
+    h3
+  </h3>
+  <h4>
+    h4
+  </h4>
+  <h5>
+    h5
+  </h5>
+  <h6>
+    h6
+  </h6>
+  <p>
+    paragraph size (roughly h4)
+  </p>
+  <h3>
+    Using styles
+  </h3>
+  <p>
+    (paragraph tag) make sure you Use the style attribute for styling HTML elements <br>
+Use background-color for background color <br>
+Use color for text colors <br>
+Use font-family for text fonts <br>
+Use font-size for text sizes <br>
+Use text-align for text alignment <br>
+  </p>
+ 
+  <p>
+    <h3>
+      HTML formating
+  </h3>
+    <b> - Bold text </b>
+    <strong> - Important text </strong> <br>
+    <i> - Italic text </i> <br>
+    <em> - Emphasized text </em> <br>
+    <mark> - Marked text </mark> <br>
+    <small> - Small text</small> <br>
+    <del> - Deleted text </del>  <br>
+    <ins> - Inserted text </ins> <br>
+    <sub> - Subscript text </sub><br>
+    <sup> - Superscript text </sup><br>
+    </p>
+    <p style="color:red;">
+      HTML quotations was not added
+  </p>
+    <p style="color:red;">
+      Computercode was not added
+  </p>
+  <h3>
+    Properties, elements and attributes
+    </h3>
+    <p>
+      <mark>Elements</mark> are tags that have a greater than sign at the end of the piece of code and a less than sign at the starts of the tag. Elements are not used in CSS<br>
+      <mark>Attributes </mark> are pieces of code that determine what you want to change. This is used in CSS and can be written in inline, internal, or external stylesheets (which we will talk about later.) <br>
+      Attributes, if they contain two or more words, you must put a hyphen (-) in between each word. Ex, say you wanted to change background color on your website. You would use background<strong><mark>-</mark></strong>color. <br>
+      Attributes changes parts of a tag while properties determine what the attribute wants to change.<br> 
+      <mark>Properties</mark> will determine how an attribute changes a tag. Ex. You can change the color by using style=color:rbg(...,...,...)<br>
+    </p>
+    <h3>
+    HTML comments
+    </h3>
+    <p>
+    Comments cannot be integrated into the website, but it looks like (Less than,!,two dashes,comment,two dashes,Greater than) They are used to remind you of something you need to do to your website.  
+  </p>
+  <h3 style=color:rgb(140,62,205);>
+    Colors
+</h3>
+<p>
+  Colors can be defined as color name (ex blue), by HEX value (ex #FF0000), or by RBG (ex rbg(140,62,205) RBG is the one you should use for many instances and the numbers go up from 0 to 255. The previous passages that <br>
+  said ...(was not added) used style="color:red;" The way the h3 tag "Colors" was colored as well as the ...(was not added) was by using styles in inline CSS (which we will talk about next.) The inline CSS (BTW CSS <br>
+  stands for Cascading Style Sheets) was writin as <span style="color:green">style=color:rgb(140,62,205);</span><br>
+  <br>
+  Now if you want to color a specific passage on a specific h3 tag or paragraph tag for example, you use the SPAN tag. This allows you to edit very specific passages in specific areas of your website. For example, <br>
+  the way I made that "style=color:rgb(...,...,...)"green was by using (less than) span style="color:green" (greater than)style=color:rgb(140,62,205);(Less than)/span(greater than)<br>
+  <br>
+  <strong><em><mark>Tip</mark></em></strong> - You see the colon and semicolon in the rgb style, that is SUPER important. If you do not write that colon and semicolon, the style will not work/not be apllied to your webpage!
+</p>
+<h1>
+  HTML with CSS (very important)
+</h1>
+<h2>
+  Inline style sheet (1) <br>
+  Internal style sheet (2) <br>
+  External style sheet (3) <br>
+</h2>
+<h3>
+  (1) INLINE STYLE SHEETS
+</h3>
+<p>
+  Inline style sheets are styles that are integrated/put into specific tags. Notice that when I changed the h3 "colors" to a dark purple, only that h3 tag was affected and not all h3 tags turned purple. This would only <br>
+  happen if an INTERNAL or EXTERNAL style sheet was used. 
+</p>
+<h3>
+  (2) INTERNAL STYLE SHEETS
+</h3>
+<p>
+  Internal style sheets are used on the same file that effect ALL tags that you have targeted. You do this by using the <mark>STYLE tag.</mark> This style tag goes inside your HEAD tag. Remember that your "head" has "style" and you <br>
+  should remember. You do this by putting Style...your css.../style in between your head tag. This tag is helpful if you want to change something about everything on h2 or h3 tags for example. Lets say I wanted to change <br>
+  the color on all h3 tags. I would do this by the following data<br>
+  <br>
+  HEAD<br>
+  STYLE<br>
+  h3 (Shift-left bracket)color:rgb(...,...,...);(Shift-right bracket)<br>
+  /STYLE<br>
+  /HEAD<br>
+</p>
+<h3>
+  (3)EXTERNAL STYLE SHEETS
+</h3>
+<p>
+  External style sheets are hard to learn, but makes your webpage more organized. Instead of having such a long Internal style sheet, you can actually separate your CSS onto another file. This will make things easier<br>
+  to understand on your webpage. In order to use external style sheets, you must learn the <mark>REL</mark> and <mark>HREF</mark> that is integrated (put inside) the <mark>LINK</mark> tag (which we will talk about next).<br>
+  Like an internal style sheet, external ones also go in between your <mark>HEAD</mark> tag. If you wanted to link your style sheet to another file called styles.CSS, you would go like this...<br>
+  <br>
+  HEAD<br>
+  Link rel="stylesheet" href="styles.CSS"<br>
+  /HEAD<br>
+  <br>
+  Anyways, that's how you use style sheets. There are many more things CSS can do, but for now we will stick with the style sheets. 
+</p>
+<h3>
+  Links
+</h3>
+  <p>
+  Links are very important in a website because you can go from one place to another without copying and pasteing the URL in your search bar.<br>
+  You should think of links, as well as most if not all tags in coding, as parent functions. The parent function you use for linking is <br>
+    a href url>link text /a>
+  </p>
+<h3>
+  Images
+</h3>
+<p>
+  Images make your webpage look a lot less boring. The parent function is...<br>
+  img src="url" alt="description of image" style="width:(#)px;height(#)px;"
+</p>
+ <h3>
+   Tables   
+ </h3>
+  <p>
+    Tables are used on websites to organize information. Tables are used by using the <mark>table</mark> tag and the <mark>th</mark> and <mark>tr</mark> tag. Ex. 
+    <table>
+      <tr>
+      <th>apples</th>
+      <th>grapes</th>
+      <th>pineapple</th>
+      </tr>
+    </table>
+    This was written as...<br>
+    <br>
+    table<br>
+    tr<br>
+    th apples /th <br>
+    th grapes /th <br>
+    th pineapple /th <br>
+    /tr <br>
+    /table <br>
+    <br>
+    Multiple properties are used with tables. Padding, boarder-collapse, eta. You use these style sheets written as CSS inline, internal, or external style sheets. 
+    You also use the colspan and rowspan attributes as well as the id tag to your best convienince. You can also include a caption to your table by using the caption tag/element.
+    <br>
+    <mark><strong><em>Tip</em></strong></mark> - Remember, make sure you know the difference between elements, properties, and attributes! This is critical to know as it makes coding a lot easier.<br>
+    </p>  
+    <h3>
+    Lists
+  </h3>
+  <p>
+    Lists are very common in websites...especially if the websites shows you a set of rules or instructions to follow like a recipie website. There are 6 tags that concern lists. These tags are <mark>ul,ol,li,dt,dl,and dd.</mark><br>
+    <mark>ul</mark> - stands for unordered list...a list that does not include letters or numbers that are in order. This is why it is called an unordered list.<br>
+    <mark>ol</mark> - stands for ordered list...a list that does include letters and numbers. This is ussally used if a set of instructions must be follwed in a specific order.<br>
+    <mark>li</mark> - stands for list item...easily misunderstood because it does not stand for link, a list item is the item/specific piece of information in a list that must be used in both ul and ol lists.<br>
+    <mark>dl</mark> - stands for description list...Go to w3schools to understand this term as well as dt and dd.<a href="http://www.w3schools.com/html/html_lists.asp" target="_blank">w3schools link</a> 
+  </p>
+  <h3>
+    Html block/inline elements
+  </h3>
+  <p>
+    Html block elements like the <mark>div</mark> tag stretch out as far left and far right as possible. Ex<br>
+    <div style="background-color:red;color:blue;padding:10px;">
+   <h3>
+    WW2
+   </h3>
+<br>
+people died...the end
+</div>
+<br>
+The div element is by far the most important element/common element in coding. You will not see one website that doesn't have this element. We will not talk about the inline element because we already mentioned<br>
+it when we were using the <mark>span</mark> tag
+</p>
+<h3>
+  Html classes
+</h3>
+<p>
+  Html classes are used so you can apply a specific style to the same type of element. Using w3 schools for this is recomended.<br>
+  Classes are in CSS internal or external. You can't do this in inline.<br>
+</p>
+  <div class="hi">
+  Now that this div has a class, whatever class it is assigned will apply its properties.<br> 
+</div>
+<p style="color:red;">
+  HTML IFrames and JavaScript was not added
+</p>
+<h3>
+  HTML Head
+</h3>
+<p>
+  Multiple elements are used between the head element. The elements used in between the head elements is the <mark>title, base, link, meta script, and style</mark> element.<br>
+  <mark>title</mark> - The title of your webpage title <br>
+  <mark>style</mark> - Style is used for internal CSS<br>
+  <mark>link</mark> - The link element is used for connecting your html file to External CSS<br>
+  <mark>meta</mark> - The meta element is used to specify metadata. Meta data is keywords, authors, name of the webpage,eta.<br>
+  <mark>script</mark> - the script element is used for client-side Javascripts.<br>
+  <mark>base</mark> - The base element is used to specify the base URL and base target for all relative URL's in a page.mark<br>  
+</p>
+<p>
+<a href="defult.asp">
+<img scr="https://www.google.com/search?q=smiley+face&espv=2&biw=1918&bih=896&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi0vs6_tLDQAhVN5GMKHdBACmcQ_AUIBigB&safe=active&ssui=on#imgrc=pnfDcMZBjJ4u2M%3A" alt="picture link" style="width:30px;length:40px;">
+</a>
+<img scr="https://www.google.com/search?q=image+of+a+pencil&espv=2&biw=1918&bih=896&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiS4qWItrDQAhUMHGMKHWKKDSgQ_AUIBigB&safe=active&ssui=on#imgdii=np4JNoUXOBwroM%3A%3Bnp4JNoUXOBwroM%3A%3BaigND9qHfITAJM%3A&imgrc=np4JNoUXOBwroM%3A">
+</p>
+<ol>
+<li>ordered</li>
+<li>list</li>
+</ol>
+<ul>
+  <li>Unordered</li>
+  <li>list</li>
+</ul>
+
+
+
+
+
+  
+    
+    
+    
+  </body>
+</html>
