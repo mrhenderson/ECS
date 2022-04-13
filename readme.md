@@ -1,4 +1,4 @@
 ### checkboxes
-- [] Empty
+- [ ] Empty
 - [x] Checked
 - [ x ] Incorrect
