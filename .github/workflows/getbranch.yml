@@ -29,6 +29,6 @@ jobs:
         uses: actions/github-script@v4.0.2
         with:
             script: |
-                const branchName = context.repo.repo;
+                const branchName = context.repo.base_ref;
                 console.log(`Branch name: ${branchName}`);
         
