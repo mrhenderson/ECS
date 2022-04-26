@@ -29,5 +29,5 @@ jobs:
       - name: Get branch name
         run: |
           // echo the name of the branch to see if it starts with "release-"
-          console.log(`Repo name: ${context.repo.repo}`);
+          console.log(`Repo name:`);
           
