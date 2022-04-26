@@ -29,5 +29,5 @@ jobs:
         uses: actions/github-script@v4.0.2
         with:
             script: |
-                console.log(`Hello world`);
+                console.log(`Branch name: ${context.repo}`);
         
